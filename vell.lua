@@ -57,14 +57,14 @@ end
 
 -------------------- LINK RAW ----------------------
 local LINKS = {
-    {"Animation",      "https://raw.githubusercontent.com/arullwah/Wkwkwkw/refs/heads/main/anim.lua"},
-    {"Emote",          "https://raw.githubusercontent.com/arullwah/Wkwkwkw/refs/heads/main/Emot_ah.lua"},
-    {"Fly",            "https://raw.githubusercontent.com/arullwah/Wkwkwkw/refs/heads/main/Flyik.lua"},
-    {"Jump Button",    "https://raw.githubusercontent.com/arullwah/Wkwkwkw/refs/heads/main/Jumboet.lua"},
-    {"Teleport",       "https://raw.githubusercontent.com/arullwah/Wkwkwkw/refs/heads/main/Telport.lua"},
-    {"Spectate",       "https://raw.githubusercontent.com/arullwah/Wkwkwkw/refs/heads/main/Spectattei.lua"},
-    {"Performance",    "https://raw.githubusercontent.com/arullwah/Wkwkwkw/refs/heads/main/Opzer.lua"},
-    {"Realistic Mode", "https://raw.githubusercontent.com/arullwah/Wkwkwkw/refs/heads/main/Relic.lua"},
+    {"Animation",      "https://raw.githubusercontent.com/velliya1111-byte/vell/refs/heads/main/animasi.lua"},
+    {"Emote",          "https://raw.githubusercontent.com/velliya1111-byte/vell/refs/heads/main/Emot.lua"},
+    {"Fly",            "https://raw.githubusercontent.com/velliya1111-byte/vell/refs/heads/main/fly.lua"},
+    {"Jump Button",    "https://raw.githubusercontent.com/velliya1111-byte/vell/refs/heads/main/jembut.lua"},
+    {"Teleport",       "https://raw.githubusercontent.com/velliya1111-byte/vell/refs/heads/main/tele.lua"},
+    {"Spectate",       "https://raw.githubusercontent.com/velliya1111-byte/vell/refs/heads/main/Spct.lua"},
+    {"Performance",    "https://raw.githubusercontent.com/velliya1111-byte/vell/refs/heads/main/perform.lua"},
+    {"Realistic Mode", "https://raw.githubusercontent.com/velliya1111-byte/vell/refs/heads/main/real.lua"},
     -- Memory Cleaner dihapus
 }
 
@@ -99,7 +99,7 @@ local Title = Instance.new("TextLabel")
 Title.Size = UDim2.new(1,-30,1,0)
 Title.Position = UDim2.new(0,8,0,0)
 Title.BackgroundTransparency = 1
-Title.Text = "Menu ByaruL"
+Title.Text = "Menu Velliya"
 Title.TextColor3 = Color3.fromRGB(255,255,255)
 Title.Font = Enum.Font.GothamBold
 Title.TextSize = 12
@@ -229,4 +229,4 @@ for _, item in ipairs(LINKS) do
     end)
 end
 
-      fit()
+fit()
