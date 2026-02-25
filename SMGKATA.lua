@@ -6,7 +6,6 @@
 -- LOAD RAYFIELD (paling atas)
 -- ================================
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua"))()
-
 -- ================================
 -- SERVICES
 -- ================================
