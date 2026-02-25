@@ -4,8 +4,8 @@
 
 -- ================================
 -- LOAD RAYFIELD
--- ================================
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+-- ================(
+local Rayfield = loadstring(game:HttpGetAsync("https://sirius.menu/rayfield"))()
 
 if not Rayfield then
     warn("Rayfield gagal dimuat")
@@ -403,4 +403,5 @@ UsedWordWarn.OnClientEvent:Connect(function(word)
             startUltraAI()
         end
     end
+
 end)
