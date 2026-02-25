@@ -5,7 +5,7 @@
 -- ================================
 -- LOAD RAYFIELD
 -- ================(
-local Rayfield = loadstring(game:HttpGetAsync("https://sirius.menu/rayfield"))()
+local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua"))()
 
 if not Rayfield then
     warn("Rayfield gagal dimuat")
@@ -405,3 +405,4 @@ UsedWordWarn.OnClientEvent:Connect(function(word)
     end
 
 end)
+
